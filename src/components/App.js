@@ -41,7 +41,7 @@ const Hotel = styled.div`
 	/* background-size: cover; */
 	height: 100vh;
 	width: 80vw;
-	@media only screen and (max-width: 1000px) {
+	@media (orientation: portrait) {
 		 {
 			width: 100vw;
 			height: 80vh;
@@ -57,7 +57,7 @@ const SideBar = styled.div`
 	display: block;
 	left: 80%;
 	background: white;
-	@media only screen and (max-width: 1000px) {
+	@media (orientation: portrait) {
 		 {
 			width: 100vw;
 			height: 20vh;
